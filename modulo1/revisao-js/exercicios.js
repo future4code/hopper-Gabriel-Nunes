@@ -49,7 +49,7 @@ function retornaNumerosParesElevadosADois(array) {
 
 // EXERCÍCIO 06
 function retornaMaiorNumero(array) {
-    
+
     return Math.max.apply(null, array)
     
 
@@ -67,7 +67,16 @@ function retornaNPrimeirosPares(n) {
 
 // EXERCÍCIO 09
 function classificaTriangulo(ladoA, ladoB, ladoC) {
+ 
+    if (ladoA == ladoB && ladoA === ladoC) {
+        return "Equilátero"
 
+    } else if (ladoA !== ladoB && ladoA !== ladoC && ladoB !== ladoC) {
+        return "Escaleno"
+
+    } else if (ladoA === ladoB || ladoA === ladoC || ladoB === ladoC) {
+        return "Isósceles"
+    }
 }
 
 // EXERCÍCIO 10
