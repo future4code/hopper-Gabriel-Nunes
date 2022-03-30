@@ -19,6 +19,11 @@ h2 {
 input {
     height: 20px;
     width: 500px;
+    border-bottom: 3px solid black;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    
 }
 
 button:focus {
@@ -141,6 +146,7 @@ td button:active{
     border-radius: 5px;
     font-size: 10px;
     color: black;
+    margin: auto;
 }
 
 #back-button:hover {
