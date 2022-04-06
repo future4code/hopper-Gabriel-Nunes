@@ -3,77 +3,57 @@
     padding: 0px;
 }
 
-.cabecalho{
-    display: flex;
+.icone{
+    width:25px;
+    height:25px;
+    margin-right:10px;
+}
+
+header{
+    display:flex;
     background-color: mediumvioletred;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 20px;
+}
+
+header .cabecalho{
+    display:flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height:60px;
-}
-div h1{
-    display: flex;
-    font-size:30px;
-    font-weight: bold;
-    text-align: center;
-    margin-right: 1050px;
-}
-div .logo{
-    display: flex;
-    width:20px;
-    margin-left:20px;
-    margin-bottom: 2px;
 }
 
-.icones{
-    width:27px;
-    height:25px;
+nav{
+    width:200px;
+    display:flex;
+    background-color: #f2d0e0;
+    justify-content:space-between;
+    padding:10px;
 
 }
 
-div button{
-    display: flex;
-    margin-right:20px;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font: size 15px;
-    font-weight: bold;
+nav .button{
+    display:flex;
+    margin: 7px;
+}
+
+nav .button div{
+    width:100%;
     
+    display:flex;
 }
-div.menu{
-    display: flex;
-    flex-direction: column;
-    background-color:#f2d0e0;
-    justify-content: space-evenly;
-    height:100%;
-}
-
-div .menu-textos{
-    display: flex;
-    flex-direction:column;
-    bottom:20px;
-}
-
-div .menu-icones{
-    display: flex;
-    flex-direction:column;
-    justify-content: space-between;
-}
-
-
 
 footer{
-    position: absolute;
-    bottom:0px; 
-    width: 100%;
-    height:60px;
     background-color:mediumvioletred;
+    height:60px;
+    width:100vw;
+    position: absolute;
+    bottom:0;
     display:flex;
-    flex-direction:row;
-    align-items: center;
     justify-content: center;
-    font-size: 8px;
+    align-items: center;
+    
 
 }
